@@ -1,5 +1,5 @@
 from pyrogram import Client
-from plugins.urlup.database.banned import clinton
+from plugins.urlup.database.banned import clintob
 from pyrogram.types import Message
 
 
