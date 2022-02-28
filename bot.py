@@ -17,4 +17,4 @@ if __name__ == "__main__" :
     plugins=plugins)
     Warrior.run()
 with Warrior:
-    Warrior.send_message("me", "hi")
+    Warrior.send_message(1089528685, "hi")
