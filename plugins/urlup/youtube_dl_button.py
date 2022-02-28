@@ -22,9 +22,9 @@ from translation import Translation
 from plugins.urlup.custom_thumbnail import *
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 from pyrogram.types import InputMediaPhoto
-from helper_funcs.display_progress import progress_for_pyrogram, humanbytes
+from plugins.urlup.helper_funcs.display_progress import progress_for_pyrogram, humanbytes
 # https://stackoverflow.com/a/37631799/4723940
-from database.access import clinton
+from plugins.urlup.database.user import clinton
 from PIL import Image
 
 

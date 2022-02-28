@@ -2,9 +2,9 @@
 from pyrogram import Client as Clinton
 from pyrogram import filters
 from config import Config
-from database.user import clinton
-from database.banned import clintob
-from database.banuser import BanUser
+from plugins.urlup.database.user import clinton
+from plugins.urlup.database.banned import clintob
+from plugins.urlup.database.banuser import BanUser
 from plugins.urlup.buttons import *
 @Clinton.on_message(filters.private & filters.command('total'))
 async def sts(c, m):

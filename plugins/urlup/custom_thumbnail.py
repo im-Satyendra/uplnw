@@ -14,13 +14,13 @@ from config import Config
 # the Strings used for this "thing"
 from translation import Translation
 from pyrogram import Client as Clinton
-from database.user import clinton
+from plugins.urlup.database.user import clinton
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 from pyrogram import filters
-from database.adduser import AddUser
-from helper_funcs.help_Nekmo_ffmpeg import take_screen_shot
+from plugins.urlup.database.adduser import AddUser
+from plugins.urlup.helper_funcs.help_Nekmo_ffmpeg import take_screen_shot
 
 @Clinton.on_message(filters.private & filters.photo)
 async def save_photo(bot, update):

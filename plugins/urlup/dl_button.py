@@ -17,7 +17,7 @@ from config import Config
 from translation import Translation
 from plugins.urlup.custom_thumbnail import *
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
-from helper_funcs.display_progress import progress_for_pyrogram, humanbytes, TimeFormatter
+from plugins.urlup.helper_funcs.display_progress import progress_for_pyrogram, humanbytes, TimeFormatter
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
 # https://stackoverflow.com/a/37631799/4723940

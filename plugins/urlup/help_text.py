@@ -10,7 +10,7 @@ from config import Config
 from translation import Translation
 
 from pyrogram import filters
-from database.adduser import AddUser
+from plugins.urlup.database.adduser import AddUser
 from pyrogram import Client as Clinton
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 

@@ -6,15 +6,15 @@ logger = logging.getLogger(__name__)
 import requests, urllib.parse, filetype, os, time, shutil, tldextract, asyncio, json, math
 
 from config import Config
-from database.adduser import AddUser
+from plugins.urlup.database.adduser import AddUser
 from translation import Translation
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 from pyrogram import filters
 from pyrogram import Client as Clinton
-from database.access import clinton
-from helper_funcs.display_progress import humanbytes
-from helper_funcs.help_uploadbot import DownLoadFile
-from helper_funcs.display_progress import progress_for_pyrogram, humanbytes, TimeFormatter
+from plugins.urlup.database.user import clinton
+from plugins.urlup.helper_funcs.display_progress import humanbytes
+from plugins.urlup.helper_funcs.help_uploadbot import DownLoadFile
+from plugins.urlup.helper_funcs.display_progress import progress_for_pyrogram, humanbytes, TimeFormatter
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton

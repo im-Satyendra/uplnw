@@ -1,5 +1,5 @@
 import asyncio
-from functions.function00 import *
+from plugins.urlup.functions.function00 import *
 from pyrogram import Client as Clinton
 from pyrogram.errors import QueryIdInvalid
 from pyrogram.types import InlineKeyboardButton
