@@ -21,7 +21,7 @@ from plugins.upl2.translation import Translation
 import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
-from helper_funcs.display_progress import progress_for_pyrogram, humanbytes
+from plugins.upl2.helper_funcs.display_progress import progress_for_pyrogram, humanbytes
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
 # https://stackoverflow.com/a/37631799/4723940
