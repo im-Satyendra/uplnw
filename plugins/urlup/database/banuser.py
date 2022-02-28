@@ -1,5 +1,5 @@
 from pyrogram import Client
-from database.banned import clinton
+from plugins.urlup.database.banned import clinton
 from pyrogram.types import Message
 
 

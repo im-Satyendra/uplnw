@@ -1,5 +1,5 @@
 
 from config import Config
-from database.database import Database
+from plugins.urlup.database.database import Database
 
 clintob = Database(Config.DATABASE_URL, "banned")
