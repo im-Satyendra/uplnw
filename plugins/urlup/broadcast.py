@@ -58,7 +58,7 @@ async def broadcast_(c, m):
     async with aiofiles.open('broadcast.txt', 'w') as broadcast_log_file:
         async for user in all_users:
             iuu = int(user['id'])
-            await c.send_message(m.chat.id, iuu)
+            await c.send_message(m.chat.id, all_users)
             sts, msg = await send_msg(
                 user_id = int(user['id']),
                 message = broadcast_msg
