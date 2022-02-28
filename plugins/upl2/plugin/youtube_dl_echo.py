@@ -22,8 +22,8 @@ from plugins.upl2.translation import Translation
 import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
-from helper_funcs.display_progress import humanbytes
-from helper_funcs.help_uploadbot import DownLoadFile
+from plugins.upl2.helper_funcs.display_progress import humanbytes
+from plugins.upl2.helper_funcs.help_uploadbot import DownLoadFile
 
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors import UserNotParticipant, UserBannedInChannel
