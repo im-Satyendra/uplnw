@@ -33,4 +33,5 @@ async def force_sub(c, m):
             logger.error(e)
             return await m.reply_text("Some thing went wrong. Try again and if same issue occur contact [me](https://t.me/s4tyendra)", disable_web_page_preview=True, quote=True)
 
-    await m.continue_propagation()
+        await m.continue_propagation()
+    
